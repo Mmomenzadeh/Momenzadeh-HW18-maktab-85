@@ -1,11 +1,15 @@
 import "./App.css"
+import Question1 from "./Components/Question-1"
 import Question3 from "./Components/Question-3"
 
 const App=()=>{
 
     return(
         <div className="app">
-            <Question3/>
+            <Question1/>
+
+            {/* <Question3/> */}
+
         </div>
     )
 }
