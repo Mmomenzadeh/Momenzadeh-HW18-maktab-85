@@ -31,7 +31,6 @@ const Question1 = () => {
                   }}
                 ></div>
                 <p className="rgb-color">
-                  {" "}
                   rgb{`(${color.red} ,${color.green} ,${color.blue})`}
                 </p>
               </div>
