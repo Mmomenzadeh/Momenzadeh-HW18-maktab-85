@@ -4,22 +4,29 @@ import "./Question-2.css";
 function reducer( initialColor , action) {
     switch (action.type) {
       case "increaseRed":
-        if ( rgbValue.red < 256) {
+        if ( initialColor.red < 256) {
         return {...initialColor, red : initialColor.red + 5}
         }
       case "decreaseRed":
-        if (rgbValue.red >= 0 ) {
+        if (initialColor.red >= 0 ) {
         return {...initialColor , red : initialColor.red -5}
         }
       case "increaseGreen":
+        if ( initialColor.green < 256) {
         return {...initialColor , green : initialColor.green + 5};
+        }
       case "decreaseGreen":
+        if (initialColor.green >= 0 ) {
         return {...initialColor , green : initialColor.green -5}
+        }
       case "increaseblue":
+        if ( initialColor.blue < 256) {
         return {...initialColor , blue : initialColor.blue +5}
+        }
       case "decreaseblue":
+        if (initialColor.blue >= 0 ) {
         return {...initialColor , blue : initialColor.blue -5}
-  
+        }
       default:
         return initialColor;
     }

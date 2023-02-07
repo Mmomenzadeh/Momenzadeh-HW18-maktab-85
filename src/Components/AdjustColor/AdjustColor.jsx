@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const AdjustColor = () => {
-  const [rgbValue, setRgbValue] = useState({ red: 10, green: 100, blue: 100 });
+  const [rgbValue, setRgbValue] = useState({ red: 100 , green: 100, blue: 100 });
 
   const changeColorHandeler = (action) => {
     switch (action) {

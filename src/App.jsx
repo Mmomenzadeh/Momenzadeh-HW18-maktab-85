@@ -12,9 +12,9 @@ const App=()=>{
     return(
         <div className="app">
             {/* <Question1/> */}
-            {/* <Question2/> */}
+            <Question2/>
             {/* <Question3/> */}
-            <AdjustColor/>
+            {/* <AdjustColor/> */}
 
         </div>
     )
